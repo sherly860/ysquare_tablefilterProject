@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-left: 12px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #c6c6c6;
+}
+input[type=text] {  
+  padding: 8px;  
+  margin-top: 8px;  
+  font-size: 17px;  
+  border: 2px solid black;  
+  }  
+.search button {  
+  
+  padding: 8px;  
+  margin-top: 10px;  
+  margin-left: 10px;  
+  background: palevioletred;  
+  font-size: 20px;  
+  border: none;  
+  border-radius: 12px;
+  cursor: pointer;  
+  }  
+  .search button:hover {  
+  background: blue;  
+  }  
+  h1{
+    text-align: center;
+  }
